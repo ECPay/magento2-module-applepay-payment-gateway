@@ -16,7 +16,7 @@ class PaymentMethod extends AbstractMethod
 
     protected $_infoBlockType = 'Ecpay\\ApplepayPaymentGateway\\Block\\Info';
 
-    public function isAvailable(CartInterface $quote = null)
+    public function isAvailable(?CartInterface $quote = null)
     {
         return $this->isApplePaySupported();
     }

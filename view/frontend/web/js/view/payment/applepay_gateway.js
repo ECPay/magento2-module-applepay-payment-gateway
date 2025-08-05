@@ -20,7 +20,10 @@ define(
                 component: 'Ecpay_ApplepayPaymentGateway/js/view/payment/method-renderer/applepay_gateway'
             }
         );
-        /** Add view logic here if needed */
+        /**
+    * 
+    * Add view logic here if needed 
+    */
         return Component.extend({});
     }
 );

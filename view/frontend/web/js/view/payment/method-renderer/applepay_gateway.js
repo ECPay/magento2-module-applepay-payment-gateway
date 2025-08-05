@@ -11,14 +11,16 @@ define(
     function (Component) {
         'use strict';
 
-        return Component.extend({
-            defaults: {
-                template: 'Ecpay_ApplepayPaymentGateway/payment/form'
-            },
+        return Component.extend(
+            {
+                defaults: {
+                    template: 'Ecpay_ApplepayPaymentGateway/payment/form'
+                },
 
-            getCode: function() {
-                return 'ecpay_applepay_gateway';
+                getCode: function () {
+                    return 'ecpay_applepay_gateway';
+                }
             }
-        });
+        );
     }
 );
